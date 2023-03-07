@@ -1,0 +1,15 @@
+
+<suite name="Suite1">
+  <test thread-count="5" name="Test1">
+	  
+	  <groups>
+		  <run>
+			  <include name="smoke"></include>
+		  </run>
+	  </groups>
+	  
+    <classes>
+      <class name="Demo.TestNGPriorityDemo"/>
+    </classes>
+  </test> 
+</suite> 
