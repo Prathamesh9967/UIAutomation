@@ -6,8 +6,8 @@
       <class name="Tests.dropdown">
         <methods>
           <include name="dropdownHover"/>
-          <include name="Setup"/>
           <include name="tearDown"/>
+          <include name="Setup"/>
         </methods>
       </class> <!-- Tests.dropdown -->
     </classes>
