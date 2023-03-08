@@ -3,6 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="Tests.AmazonDynamic"/>
+      <class name="Tests.DynamicElement"/>
       <class name="Tests.dropdown"/>
     </classes>
   </test> <!-- Test -->

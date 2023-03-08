@@ -2,7 +2,6 @@
   <test thread-count="5" parallel="classes" name="Test2">
     <classes>
       <class name="Tests.TestNGDemo"/>
-      <class name="Tests.TestNGDemo2"/>
     </classes>
   </test> 
 </suite> 

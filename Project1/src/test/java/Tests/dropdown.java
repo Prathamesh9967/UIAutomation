@@ -68,12 +68,8 @@ public class dropdown {
 		action.moveToElement(Mi).click().perform();
 		
 		WebElement miMob = driver.findElement(By.xpath("//h1[@class=\"_10Ermr\"]"));
-		if(miMob.isDisplayed()) {
-			test.pass("Text is displayed");
-		}else {
-			test.fail("Text is not displayed");
-		}
-		//Assert.assertEquals(true, miMob.isDisplayed());
+	
+		Assert.assertEquals(false, miMob.isDisplayed());
 		
 		test.info("Test completed");
 	}
